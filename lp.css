@@ -1,0 +1,20 @@
+/*
+Mario Franchi
+Web and Distributed Programming
+Landing Page CSS Sheet
+Fall 2019
+*/
+
+body{
+	background-color: #80c28f;
+}
+
+h1{
+	text-align: center;
+}
+
+p{
+	text-align: center;
+	font-size: 20px;
+}
+
