@@ -1,0 +1,54 @@
+/*
+Mario Franchi
+Web and Distributed Programming
+Programming Assignment 2
+Fall 2019
+*/
+h1{
+	text-align: center;
+}
+
+#bio{
+	font-size: 20px;
+}
+
+#bio2{
+	border-style: dashed;
+	padding: 5px;
+	border-radius: 15px;
+	text-align: center;
+}
+
+#bio3{
+	border-style: dashed;
+	padding: 5px;
+	border-radius: 15px;
+}
+
+#title{
+	text-align: center;
+}
+
+#bio4{
+	border-style: dashed;
+	padding: 5px;
+	border-radius: 15px;
+	text-align: center;
+}
+
+table, th, td, tr{
+	border: 2px solid black;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#biop{
+	font-size: 20px;
+}
+
+#bio5{
+	border-style: dashed;
+	padding: 5px;
+	border-radius: 15px;
+	text-align: center;
+}

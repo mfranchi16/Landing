@@ -1,0 +1,187 @@
+<!doctype html>
+<!--
+Mariano Franchi
+Web and Distributed Programming 
+Programming Assignment 2
+Fall 2019
+-->
+<html lang="en">
+	<head>
+		<title>Course Schedule &mdash; Mariano Franchi</title>
+		<link rel="stylesheet" href="schedule.css" />
+	</head>
+	<body>
+		<h1>Course Schedule &mdash; Mariano Franchi</h1>
+		<h3>Table of Contents</h3>
+		<ul>
+			<li><a href="#biography">Biography</a></li>
+			<li><a href="#title">Courses</a></li>
+			<li><a href="#schedule">Schedule</a></li>
+		</ul>
+		<section id="bio2">
+			<h2 id="biography">Biography</h2>
+			<blockquote id="bio">I am a Lewis University student who is in Air Force ROTC. I am a senior computer science major. I will be joining the Air Force after college.</blockquote> 
+			<img src="Images/me.jpg" alt="Me" height="300" width="500" />
+		</section>
+		&nbsp;
+		<section id="bio3">
+			<h2 id="title">Courses</h2>
+			<ul>
+				<li>Second-Year Russian 1 &mdash; FLAN 24300</li>
+				<li>Private Pilot Ground 1 &mdash; AVTR 13000</li>
+				<li>Web and Distributed Programming &mdash; CPSC 24700</li>
+				<li>Introduction to Networks &mdash; CPSC 28100</li>
+				<li>National Affairs and Security &mdash; AS401</li>
+				<li>Leadership Laboratory &mdash; AS499</li>
+			</ul>
+		</section>
+		&nbsp;
+		<section id="bio4">
+			<h2 id="schedule">Schedule</h2>
+			<table>
+				<caption>My Course Schedule</caption>
+				<tr>
+					<th> </th>
+					<th>Monday</th>
+					<th>Tuesday</th>
+					<th>Wednesday</th>
+					<th>Thursday</th>
+					<th>Friday</th>
+				</tr>
+				<tr>
+					<th>8am</th>
+					<th> </th>
+					<th> </th>
+					<th> </th>
+					<th> </th>
+					<th> </th>
+				</tr>
+				<tr>
+					<th>9am</th>
+					<th> </th>
+					<th>AS401</th>
+					<th> </th>
+					<th>AS499</th>
+					<th> </th>
+				</tr>
+				<tr>
+					<th>10am</th>
+					<th> </th>
+					<th>AS401</th>
+					<th> </th>
+					<th>AS499</th>
+					<th> </th>
+				</tr>
+				<tr>
+					<th>11am</th>
+					<th>FLAN 24300</th>
+					<th>AS401</th>
+					<th>FLAN 24300</th>
+					<th> </th>
+					<th>FLAN 24300</th>
+				</tr>
+				<tr>
+					<th>12am</th>
+					<th> </th>
+					<th> </th>
+					<th> </th>
+					<th> </th>
+					<th> </th>
+				</tr>
+				<tr>
+					<th>1pm</th>
+					<th>AVTR 13000</th>
+					<th> </th>
+					<th>AVTR 13000</th>
+					<th> </th>
+					<th>AVTR 13000</th>
+				</tr>
+				<tr>
+					<th>2pm</th>
+					<th> </th>
+					<th> </th>
+					<th> </th>
+					<th> </th>
+					<th> </th>
+				</tr>
+				<tr>
+					<th>3pm</th>
+					<th>CPSC 24700</th>
+					<th> </th>
+					<th>CPSC 24700</th>
+					<th> </th>
+					<th>CPSC 24700</th>
+				</tr>
+				<tr>
+					<th>4pm</th>
+					<th> </th>
+					<th> </th>
+					<th> </th>
+					<th> </th>
+					<th> </th>
+				</tr>
+				<tr>
+					<th>5pm</th>
+					<th> </th>
+					<th> </th>
+					<th> </th>
+					<th> </th>
+					<th> </th>
+				</tr>
+				<tr>
+					<th>6pm</th>
+					<th> </th>
+					<th>CPSC 28100</th>
+					<th> </th>
+					<th> </th>
+					<th> </th>
+				</tr>
+				<tr>
+					<th>7pm</th>
+					<th> </th>
+					<th>CPSC 28100</th>
+					<th> </th>
+					<th> </th>
+					<th> </th>
+				</tr>
+				<tr>
+					<th>8pm</th>
+					<th> </th>
+					<th>CPSC 28100</th>
+					<th> </th>
+					<th> </th>
+					<th> </th>
+				</tr>
+				<tr>
+					<th>9pm</th>
+					<th> </th>
+					<th>CPSC 28100</th>
+					<th> </th>
+					<th> </th>
+					<th> </th>
+				</tr>
+			</table>
+			<p id="biop">*Disclaimer: CPSC 28100 is only an 8 week course.*</p>
+		</section>
+		&nbsp;
+		<script>
+			function resetFunction(){
+				document.getElementById("myForm").reset();
+			}
+			function submitFunction(){
+				document.getElementById("myForm").reset();
+				alert("Your feedback is appreciated!");
+			}
+		</script>
+		<section id="bio5">
+			<h2>Feedback Form</h2>
+			<form id="myForm" action="/action_page.php" onsubmit="" method="post"> 
+				Name: <input type="text" name="fname"><br>
+				<input type="radio" name="rad" value="Male" onclick=0>Male <input type="radio" name="rad" value="Female" onclick=0>Female<br>
+				<h4>Feedback:</h4>
+				<textarea name="Feedback" rows="4" cols="50"> </textarea><br>
+				<input type="button" onclick="resetFunction()" value="Reset"> <input type="button" onclick="submitFunction()" value="Submit">
+			</form>
+		</section>
+	</body>
+</html>
