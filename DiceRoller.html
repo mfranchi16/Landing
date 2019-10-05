@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<!--
+    Author: Mariano Franchi
+	Fall 2019
+	Web and Distributed Programming
+	Dice Roller	
+-->
+<head>
+    <meta charset="UTF-8">
+    <title>Craps</title>
+	<link rel="stylesheet" href="dr.css" />
+	<script src ="dice.js"></script>
+</head>
+<body onload="Roll1(); Roll2(); Results();">
+	<header>
+		<h1>Dice Roller</h1>
+		<p id="in">This game is similar to the game of craps, which people play in casinos. In order to play the game below, you must click the button to roll the dice. However, the dice were automatically rolled when you loaded this page. Clicking th button rolls 2 dice. You add the numbers of the 2 dice (the site does it for you), as long as you do not roll a 7, then you win.</p>
+		&nbsp;
+		<button id="but" type="button" onclick="Roll1(); Roll2(); Results();" autofocus>Roll Dice</button><br>
+		<p>&nbsp;</p>
+	</header>
+	<article>
+		<h3 id="title">Dice</h3>
+		<section id="lefty">
+			<h3>Roll 1</h3>
+			Die 1 Value: <input id="die1" type="text" value="" size="5" disabled><br><br>
+		</section>
+		<aside id="righty">
+			<h3>Roll 2</h3>
+			Die 2 Value: <input id="die2" type="text" value="" size="5" disabled><br><br>
+		</aside>
+	</article>
+	<h4>Results</h4>
+	<p id="re">Dice Sum: <input id="sum" type="text" value="1" size="5"><br></p>
+</body>
+</html>
