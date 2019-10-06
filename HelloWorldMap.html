@@ -36,21 +36,8 @@
 				zoom: 6
 			});
 		
-			var marker = new google.maps.Marker({
-				position: chicago,
-				map: map,
-				title: 'Click to zoom'
-			});
-
 			map.addListener('bounds_changed', function() {
-				window.setTimeout(function() {
-					map.panTo(marker.getPosition());
-				}, 2000);
-			});
-
-			marker.addListener('click', function() {
-				map.setZoom(8);
-				map.setCenter(marker.getPosition());
+				console.log("Bounds Changed")
 			});
 		}
     </script>
