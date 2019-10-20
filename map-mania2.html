@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!--
+	author: Mario Franchi
+	Fall 2019
+	Web and Distributed Programming
+	Map Mania Version 2
+-->
+<html>
+<head>
+    <title>Map Mania</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+	<script src="mapmania2.js"></script>
+    <style>
+		#map {
+			height: 100%;
+		}
+		html, body {
+			height: 100%;
+			margin: 0;
+			padding: 0;
+		}
+		body{
+			text-align: center;
+		}
+    </style>
+</head>
+<body onclick="disappear();disappear2();">
+	<h1>Map Mania V2</h1>
+	<h3 id="dis">Getting Started</h3>
+	<p id="dis2">In order to play the game, you must click on one of my favorite locations on the map. Hints will be displayed as well to let you know if you are close. You can also use a cheat code if necessary. If you click the win button, you will automatically win. However, if you use the hints and get to 10, then you will win.</p>
+    Hint: <input id="hint-id" type="text" value="" size="120" disabled><br><br>
+	Score: <input id="score-id" type="text" value="" size="2" disabled><br><br>
+	<button type="button" onclick="cheat()">Win</button>
+	<div id="map"></div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBj_1C69dRfPxsmgYEIJIOAgVts4lABCx0&callback=initMap"
+    async defer></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
